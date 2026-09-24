@@ -1,0 +1,26 @@
+name: Suggest a project
+description: Propose a project for the list without opening a PR.
+title: "Add <project name>"
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: GitHub repository, or the package registry page if there is no repo.
+    validations:
+      required: true
+  - type: textarea
+    id: relation
+    attributes:
+      label: How does it use microsandbox?
+    validations:
+      required: true
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Inclusion criteria
+      options:
+        - label: The project has a README that explains what it does.
+          required: true
+        - label: It works with a supported microsandbox release, or describes itself as experimental.
+          required: true
