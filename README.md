@@ -103,6 +103,7 @@ Entries marked *Experimental* are described by their authors as alpha, pre-relea
 - [Once by Tuist](https://github.com/tuist/once) - Remote task runner with microsandbox compute.
 - [operator by Devic](https://github.com/devicai/operator) - Sandbox orchestration with microsandbox and Docker runtimes, TTLs, and snapshots.
 - [shoes-microsandbox](https://github.com/whywaita/shoes-microsandbox) - Provider for myshoes for ephemeral GitHub Actions self-hosted runners.
+- [willet](https://github.com/gerritlansing/willet) - A daemon that manages a GitHub Actions runner scale set and runs every job in a fresh, ephemeral microsandbox microVM.
 
 ## Images, Packaging, and Nix
 
