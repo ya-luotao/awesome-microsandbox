@@ -119,6 +119,7 @@ Entries marked *Experimental* are described by their authors as alpha, pre-relea
 
 - [hoosegow](https://github.com/billroy/hoosegow) - PTY-first terminal app for running coding agents in sandboxes.
 - [microsandbox-dashboard](https://github.com/tardigrada07/microsandbox-dashboard) - Local web dashboard with live metrics and resource resizing.
+- [microsandbox-studio](https://github.com/bnjgl/microsandbox-studio) - Simple desktop app for macOS, Linux, and Windows with SSH to every sandbox.
 - [microsandbox-tui by cfranzen](https://github.com/cfranzen/microsandbox-tui) - Terminal UI for managing sandboxes.
 - [microsandbox-tui by Freudenjunge](https://github.com/Freudenjunge/microsandbox-tui) - Rust SDK terminal dashboard with templates, metrics, and snapshots.
 - [msb-admin](https://github.com/topabomb/msb-admin) - Web admin UI built with FastAPI, HTMX, and xterm.js.
