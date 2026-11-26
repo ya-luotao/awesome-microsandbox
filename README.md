@@ -53,23 +53,35 @@ Entries marked *Experimental* are described by their authors as alpha, pre-relea
 
 ## Agent Frameworks
 
+- [ai-sdk-harness](https://github.com/fpasquet/ai-sdk-harness) - Vercel AI SDK harness for Claude Code and Codex with a microVM sandbox package.
 - [ai-sdk-microsandbox](https://github.com/DaniAkash/agent-toolkit/tree/main/packages/ai-sdk-microsandbox) - Sandbox provider for the Vercel AI SDK v7 harness. *Experimental.*
+- [Catamorphic](https://github.com/opencx-labs/catamorphic) - Framework and Work desktop app for agent workspaces with a local sandbox provider. *Experimental.*
 - [ComputeSDK](https://github.com/computesdk/computesdk) - Multi-provider sandbox SDK with local and cloud microsandbox backends.
 - [Condukt by Tuist](https://github.com/tuist/condukt) - Elixir agentic engine with a native microsandbox execution backend.
 - [effect-uai](https://github.com/betalyra/effect-uai) - Sandbox provider for Effect-based agents. *Experimental.*
-- [Eve by Vercel](https://eve.dev/docs/sandbox/microsandbox) - Sandbox backend for Eve agents.
+- [exxec](https://github.com/phil65/exxec) - Python code and process execution environments with a microVM provider.
 - [langchain-microsandbox](https://github.com/kenwoodjw/langchain-microsandbox) - Sandbox backend for LangChain Deep Agents.
+- [Omnigent](https://github.com/omnigent-ai/omnigent) - Meta-harness for Claude Code, Codex, Pi, and custom agents with a sandbox provider. *Experimental.*
 - [openai-agents-microsandbox](https://github.com/iyifr/openai-agents-microsandbox) - TypeScript and Python sandbox tools and runners for the OpenAI Agents SDK.
 - [pydantic-ai-microsandbox](https://github.com/mokronos/pydantic-ai-microsandbox) - Minimal Pydantic AI agent with a sandboxed command tool.
+- [sandbox-sdk](https://github.com/opencoredev/sandbox-sdk) - One TypeScript API across sandbox providers, including microsandbox.
 - [Smithers](https://github.com/smithersai/smithers) - Agent workflow orchestrator with a microsandbox provider (`@smthrs/microsandbox`).
 
 ## Coding Agent Runners
 
+- [agent-bootstrap](https://github.com/hisamekms/agent-bootstrap) - Planner, executor, and reviewer agents in VMs with a durable host audit. *Experimental.*
 - [agent-sandbox by butterflyskies](https://github.com/butterflyskies/agent-sandbox) - OCI image for running Claude Code, Codex, Gemini, and OpenCode.
 - [agent-sandbox by HatriGt](https://github.com/HatriGt/agent-sandbox) - Self-hosted cloud sandbox for coding agents with live output streaming.
 - [agent-vm by Wiren Board](https://github.com/wirenboard/agent-vm) - Per-project coding-agent VMs on a patched microsandbox build.
 - [agents-sandbox](https://github.com/inoio/agents-sandbox) - Runner for OpenCode, Claude Code, and Pi.
+- [altitude](https://github.com/GitSquared/altitude) - Task-focused agent manager with microVM isolation and remote runs.
+- [claude-msb](https://github.com/foo-coders/msb-claude) - Per-project Claude Code sandboxes with a host-scoped auth token.
+- [Cloudy Cloud](https://github.com/dennisonbertram/cloudycloud) - A machine and branch for each coding subagent, with a local microVM provider.
+- [codebox](https://github.com/etalab-ia/codebox) - OpenCode in a microVM using French government Albert API models.
+- [Construct CLI](https://github.com/EstebanForge/construct-cli) - Single-binary sandbox preloaded with AI agents, using microVMs by default.
 - [GSA TTS Agentic Coding Quickstart](https://github.com/GSA-TTS/agentic-coding-quickstart) - USAi coding-agent quickstart with sandbox isolation.
+- [llmman](https://github.com/llmmanorg/llmman) - Runs coding agents on any model, with an optional microVM sandbox.
+- [mbx](https://github.com/nao23/mbx) - Disposable Claude Code VMs with domain allowlists and host-side secrets.
 - [microsandbox-ai](https://github.com/ssadedin/microsandbox-ai) - Claude Code and Pi launchers with host-side credential substitution.
 - [msb-manager](https://github.com/runoverlabs/sandbox-manager) - Per-project agent VMs with host-side secrets and egress policies.
 - [opencode-image](https://github.com/ctxinf/opencode-image) - OpenCode image for Docker and microsandbox.
@@ -91,24 +103,29 @@ Entries marked *Experimental* are described by their authors as alpha, pre-relea
 - [mezha](https://github.com/odzhu/mezha) - Declarative environments with devenv provisioning and Git synchronization.
 - [microkitchen](https://github.com/timjb/microkitchen) - Mise-based VM launcher with Docker and interactive network approvals. *Experimental.*
 - [nix-dev-microsandbox](https://github.com/voidiz/nix-dev-microsandbox) - Nix development shell inside a sandbox.
+- [Puddle](https://github.com/PuddleHQ/puddle) - Devcontainer workspaces in microVMs with an approve/deny egress proxy, on a patched build.
+- [stackbox](https://github.com/preinpost/stackbox) - OpenStack test labs installed with Kolla across linked VMs, on a patched build.
+- [svamm](https://github.com/intfish/svamm) - Ergonomic wrapper for per-project sandboxes with a local image registry.
 
 ## Orchestration and Hosting
 
 - [agent-compose by Chaitin](https://github.com/chaitin/agent-compose) - Compose-style definitions for agent environments.
 - [@axiom-lattice/microsandbox-service](https://www.npmjs.com/package/@axiom-lattice/microsandbox-service) - HTTP service for managing sandboxes.
 - [Cellar](https://github.com/prodioslabs/cellar) - Self-hosted microVM clusters with a gateway for the official SDKs.
+- [lettabox](https://github.com/kaaloo/lettabox) - Letta remote environment that isolates each conversation in a local or cloud VM.
 - [mc2](https://github.com/l3wi/mc2) - Compose-style orchestrator for microVMs.
 - [Microsandbox Cloud](https://github.com/venbrinoDev/microsanbox-cloud) - Single-host control plane and signed proxy for remote VMs.
 - [msbd](https://github.com/mark3labs/msbd) - REST server for creating and driving microVMs over HTTP.
 - [nomad-driver-microsandbox](https://github.com/jamescorbett/nomad-driver-microsandbox) - HashiCorp Nomad task driver.
-- [Once by Tuist](https://github.com/tuist/once) - Remote task runner with microsandbox compute.
 - [operator by Devic](https://github.com/devicai/operator) - Sandbox orchestration with microsandbox and Docker runtimes, TTLs, and snapshots.
 - [shoes-microsandbox](https://github.com/whywaita/shoes-microsandbox) - Provider for myshoes for ephemeral GitHub Actions self-hosted runners.
+- [Struo by Tuist](https://github.com/tuist/struo) - Build system with caching and remote execution in microVMs, formerly Once.
 - [willet](https://github.com/gerritlansing/willet) - GitHub Actions runner scale-set daemon with a fresh VM for each job.
 
 ## Images, Packaging, and Nix
 
-- [beambox](https://github.com/beamhop/beambox) - Dockerless OCI image builder with a Dockerfile front-end.
+- [beambox](https://github.com/beamhop/beambox-old) - Dockerless OCI image builder with a Dockerfile front-end.
+- [dev-image](https://github.com/kaplan-michael/dev-image) - Fedora image with coding agents and language toolchains for amd64 and arm64.
 - [docker-in-microsandbox](https://github.com/rhoboro/docker-in-microsandbox) - Running Docker inside a sandbox.
 - [microsandbox-cli.nix](https://github.com/renato-zannon/microsandbox-cli.nix) - Nix flake for the `msb` CLI.
 - [microsandbox-flake](https://github.com/kasuboski/microsandbox-flake) - Alternative Nix flake for the `msb` CLI.
@@ -135,8 +152,13 @@ Applications that use microsandbox as their execution backend.
 
 - [AgentConnect](https://github.com/agentconnect-md/agentconnect) - Team agents for chats, issues, and pull requests.
 - [Agentic Usability by PSPDFKit Labs](https://github.com/PSPDFKit-labs/agentic-usability) - CLI measuring how well coding agents use SDKs, run in sandboxes.
+- [Codemini CLI](https://github.com/havingautism/Codemini-CLI) - Terminal AI workspace that runs its command sandbox in a microVM when available.
+- [gbot](https://github.com/ganeshdipdumbare/gbot) - Local-first AI teammates with an optional microVM desktop computer.
+- [GuildBotics](https://github.com/GuildBotics/GuildBotics) - AI agents that join a dev team on GitHub and Slack, isolated in VMs. *Experimental.*
 - [h5i](https://github.com/h5i-dev/h5i) - Agent-native red-teaming workspace with an optional microsandbox backend.
+- [Household](https://github.com/underwear/household) - Claude Code and Codex bots in sandboxes that you chat with over messengers.
 - [kali-mcp-sandbox](https://github.com/B1a0k/kali-mcp-sandbox) - Kali Linux MCP tools in persistent VMs on Windows.
+- [Metis](https://github.com/chagel/metis) - Self-hostable Pi agent platform with a microVM runtime.
 - [OpenWork microsandbox example](https://github.com/different-ai/openwork/tree/dev/examples/microsandbox-openwork-rust) - Rust launcher for the OpenWork server with persistent workspace mounts.
 - [sandboxed-lit by LlamaIndex](https://github.com/run-llama/sandboxed-lit) - CLI agent that runs LiteParse and shell tools in a sandbox.
 
@@ -159,4 +181,4 @@ Applications that use microsandbox as their execution backend.
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
-Last health check 2026-10-20: links and repository status checked; changed entries reviewed against upstream sources, not runtime-tested. Check each project's supported microsandbox version; recent activity does not guarantee compatibility with the latest release.
+Last health check 2026-11-26: links and repository status checked; changed entries reviewed against upstream sources, not runtime-tested. Check each project's supported microsandbox version; recent activity does not guarantee compatibility with the latest release.
